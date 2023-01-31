@@ -22,29 +22,30 @@ body {
 }
 .header {
   float: right;
+  letter-spacing: 5px;
   margin-top: 50px;
-  margin-right: 260px;
+  margin-right: 230px;
   font-size: 12px;
-  font-family: fraunces;
+  font-family: "fraunces";
   color: grey;
   word-spacing: 30px;
 }
 .infor {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 700;
-  height: 20px;
-  font-size: 30px;
+  height: 40px;
+  font-size: 32px;
   float: right;
-  width: 250px;
-  margin-right: 75px;
+  width: 230px;
+  margin-right: 100px;
   margin-top: 10px;
 }
 .body {
-  font-size: 13px;
+  font-size: 15px;
   color: grey;
   width: 250px;
   float: right;
-  margin-top: 90px;
+  margin-top: 80px;
   margin-right: 75px;
 }
 .price {
@@ -52,7 +53,7 @@ body {
   margin-right: 160px;
   margin-top: 10px;
   font-size: 40px;
-  color: green;
+  color: hsl(158, 36%, 37%);
 }
 .former {
   float: right;
@@ -63,4 +64,16 @@ body {
 }
 .graphic {
   width: 365px;
+}
+i {
+  font-size: 20px;
+}
+.shop-cart {
+  width: 250px;
+  height: 50px;
+  margin-left: 35px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
 }
