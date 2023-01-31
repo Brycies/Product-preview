@@ -1,19 +1,30 @@
-.desktop {
-  margin-top: 120px;
-  margin-left: 400px;
+* {
+  box-sizing: border-box;
 }
-.photo {
-  width: 370px;
-  background-color: yellow;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3eae3;
+}
+.div-1 {
+  background-color: white;
+  margin: 115px auto;
+  width: 735px;
   display: flex;
   flex-direction: row;
 }
+.desktop {
+  width: 370px;
+}
+.photo {
+  object-fit: cover;
+  width: 365px;
+}
 .header {
-  
   float: right;
-  margin-top: -500px;
-  margin-right: 690px;
-  font-size: 13px;
+  margin-top: 50px;
+  margin-right: 260px;
+  font-size: 12px;
   font-family: fraunces;
   color: grey;
   word-spacing: 30px;
@@ -21,32 +32,35 @@
 .infor {
   font-family: Montserrat;
   font-weight: 700;
-  height: 40px;
-  font-size: 40px;
+  height: 20px;
+  font-size: 30px;
   float: right;
-  margin-top: -450px;
-  margin-right: 430px;
-  width: 330px;
+  width: 250px;
+  margin-right: 75px;
+  margin-top: 10px;
 }
 .body {
-  font-size: 17px;
+  font-size: 13px;
   color: grey;
   width: 250px;
   float: right;
-  margin-top: -280px;
-  margin-right: 510px;
+  margin-top: 90px;
+  margin-right: 75px;
 }
 .price {
   float: right;
-  margin-top: -170px;
-  margin-right: 630px;
+  margin-right: 160px;
+  margin-top: 10px;
   font-size: 40px;
   color: green;
 }
 .former {
   float: right;
-  margin-top: -155px;
-  margin-right: 570px;
+  margin-top: -75px;
+  margin-right: 85px;
   font-size: 13px;
   color: grey;
+}
+.graphic {
+  width: 365px;
 }
