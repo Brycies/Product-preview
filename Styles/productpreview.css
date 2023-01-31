@@ -1,0 +1,25 @@
+.desktop {
+  margin-top: 120px;
+  margin-left: 400px;
+}
+.photo {
+  width: 370px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  background-color: orange;
+  float: right;
+  margin-top: -500px;
+  margin-right: 500px;
+  font-size: 13px;
+  font-family: fraunces;
+  color: grey;
+  word-spacing: 30px;
+}
+.infor {
+  float: right;
+  margin-top: -500px;
+  margin-right: 500px;
+}
