@@ -9,17 +9,44 @@
   flex-direction: row;
 }
 .header {
-  background-color: orange;
+  
   float: right;
   margin-top: -500px;
-  margin-right: 500px;
+  margin-right: 690px;
   font-size: 13px;
   font-family: fraunces;
   color: grey;
   word-spacing: 30px;
 }
 .infor {
+  font-family: Montserrat;
+  font-weight: 700;
+  height: 40px;
+  font-size: 40px;
   float: right;
-  margin-top: -500px;
-  margin-right: 500px;
+  margin-top: -450px;
+  margin-right: 430px;
+  width: 330px;
+}
+.body {
+  font-size: 17px;
+  color: grey;
+  width: 250px;
+  float: right;
+  margin-top: -280px;
+  margin-right: 510px;
+}
+.price {
+  float: right;
+  margin-top: -170px;
+  margin-right: 630px;
+  font-size: 40px;
+  color: green;
+}
+.former {
+  float: right;
+  margin-top: -155px;
+  margin-right: 570px;
+  font-size: 13px;
+  color: grey;
 }
