@@ -76,4 +76,10 @@ i {
   color: white;
   font-weight: bold;
   border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
 }
