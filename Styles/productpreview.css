@@ -65,10 +65,12 @@ body {
 .graphic {
   width: 365px;
 }
-i {
-  font-size: 20px;
+.icon {
+  size: px;
+  margin-right: 7px;
 }
 .shop-cart {
+  font-size: 16px;
   width: 250px;
   height: 50px;
   margin-left: 35px;
