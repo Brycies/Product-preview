@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3eae3;
+}
+@media screen and (max-width: 678px) {
+  .container-md {
+    margin: 10px 0px 20px 10px;
+  }
+  .photo {
+    width: max-content;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .graphic {
+    width: 100%;
+    background-color: white;
+    margin-top: -80px;
+    border: 1px solid white;
+    filter: opacity(100%);
+  }
+  .header {
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: "fraunces";
+    color: grey;
+    word-spacing: 30px;
+  }
+  .infor {
+    font-family: "Montserrat";
+    font-weight: bold;
+    height: 40px;
+    font-size: 30px;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .body {
+    font-size: 15px;
+    color: grey;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .price-cnt {
+    display: flex;
+    flex-direction: row;
+  }
+  .price {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: hsl(158, 36%, 37%);
+  }
+  .former {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: grey;
+  }
+  .shop-cart {
+    font-size: 16px;
+    width: 80%;
+    height: 50px;
+    margin-left: 20px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .icon {
+    margin-right: 7px;
+  }
+}

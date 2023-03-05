@@ -13,13 +13,7 @@ body {
   display: flex;
   flex-direction: row;
 }
-.desktop {
-  width: 370px;
-}
-.photo {
-  object-fit: cover;
-  width: 365px;
-}
+
 .header {
   float: right;
   letter-spacing: 5px;
